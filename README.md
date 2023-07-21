@@ -4,16 +4,16 @@ Installing Devise Gem on an Application
 
 1. Add Devise Gem
 # Open up your Gemfile which can be seen on RootDirectory-of-your-rails-app/Gemfile and add this line:
-
 gem 'devise'
-Then run;
 
+Then run this code on the rails console:
 bundle install
 
 2. Set up devise in your app
-# Run the following command in the terminal
 
+# Run the following command in the terminal:
 rails g devise:install
+
 3. Configure Devise
 # Ensure you have defined default url options in your environments files. Open up config/environments/development.rb and add this line:
 
